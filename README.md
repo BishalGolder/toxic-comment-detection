@@ -1,6 +1,6 @@
 # Toxic Comment Detection
 
-## 🧠 Problem Overview
+##  Problem Overview
 Online platforms receive a massive volume of user-generated comments, some of which may contain toxic, abusive, or harmful language. Manual moderation is expensive, subjective, and does not scale.
 
 This project builds a **machine learning system to automatically detect toxic comments**, with a particular focus on **reducing false positives**, so that non-toxic or sarcastic comments are not incorrectly removed.
@@ -24,7 +24,6 @@ The multi-label annotations were combined into a single binary label:
 - `is_toxic = 1` if any toxicity label is present
 - `is_toxic = 0` otherwise
 
-⚠️ Dataset is **not included** due to licensing restrictions.
 
 ---
 
@@ -75,7 +74,7 @@ Final evaluation on validation data:
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 - Python
 - Pandas, NumPy
 - scikit-learn
